@@ -1,0 +1,99 @@
+HelpDeskSystem/
+│
+├── Controllers/
+│   ├── HomeController.cs
+│   ├── AccountController.cs
+│   ├── TicketController.cs
+│   ├── UserController.cs
+│   ├── DashboardController.cs
+│   └── CommentController.cs
+│
+├── Models/
+│   ├── Ticket.cs
+│   ├── User.cs
+│   ├── Comment.cs
+│   ├── TicketCategory.cs
+│   ├── TicketStatus.cs
+│   └── ErrorViewModel.cs
+│
+├── Data/
+│   ├── ApplicationDbContext.cs
+│   └── SeedData.cs
+│
+├── Services/
+│   ├── Interfaces/
+│   │   ├── ITicketService.cs
+│   │   ├── IUserService.cs
+│   │   └── ICommentService.cs
+│   │
+│   ├── TicketService.cs
+│   ├── UserService.cs
+│   └── CommentService.cs
+│
+├── Repositories/
+│   ├── Interfaces/
+│   │   ├── ITicketRepository.cs
+│   │   ├── IUserRepository.cs
+│   │   └── ICommentRepository.cs
+│   │
+│   ├── TicketRepository.cs
+│   ├── UserRepository.cs
+│   └── CommentRepository.cs
+│
+├── ViewModels/
+│   ├── LoginViewModel.cs
+│   ├── RegisterViewModel.cs
+│   ├── TicketCreateViewModel.cs
+│   ├── TicketEditViewModel.cs
+│   ├── DashboardViewModel.cs
+│   └── CommentViewModel.cs
+│
+├── Views/
+│   ├── Home/
+│   │   ├── Index.cshtml
+│   │   └── Privacy.cshtml
+│   │
+│   ├── Account/
+│   │   ├── Login.cshtml
+│   │   ├── Register.cshtml
+│   │   └── AccessDenied.cshtml
+│   │
+│   ├── Dashboard/
+│   │   └── Index.cshtml
+│   │
+│   ├── Ticket/
+│   │   ├── Index.cshtml
+│   │   ├── Details.cshtml
+│   │   ├── Create.cshtml
+│   │   ├── Edit.cshtml
+│   │   └── Delete.cshtml
+│   │
+│   ├── User/
+│   │   ├── Index.cshtml
+│   │   └── Details.cshtml
+│   │
+│   ├── Shared/
+│   │   ├── _Layout.cshtml
+│   │   ├── _ValidationScriptsPartial.cshtml
+│   │   └── Error.cshtml
+│
+├── wwwroot/
+│   ├── css/
+│   │   └── site.css
+│   │
+│   ├── js/
+│   │   └── site.js
+│   │
+│   ├── images/
+│   └── uploads/
+│       └── tickets/
+│
+├── Migrations/
+│
+├── Properties/
+│   └── launchSettings.json
+│
+├── appsettings.json
+├── appsettings.Development.json
+├── Program.cs
+└── HelpDeskSystem.csproj
